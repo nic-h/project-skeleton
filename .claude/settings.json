@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)", "Bash(npx:*)", "Bash(node:*)",
+      "Bash(git:*)", "Bash(gh:*)", "Bash(curl:*)",
+      "Bash(mkdir:*)", "Bash(touch:*)", "Bash(cp:*)",
+      "Bash(mv:*)", "Bash(cat:*)", "Bash(ls:*)",
+      "Bash(pwd)", "Bash(echo:*)", "Bash(head:*)",
+      "Bash(tail:*)", "Bash(grep:*)", "Bash(find:*)",
+      "Bash(wc:*)", "Bash(sort:*)", "Bash(uniq:*)",
+      "Bash(diff:*)", "Bash(which:*)", "Bash(tsc:*)",
+      "Bash(tsx:*)", "Bash(eslint:*)", "Bash(prettier:*)",
+      "Bash(vitest:*)", "Bash(jest:*)", "Bash(playwright:*)",
+      "Read", "Write", "Edit", "Glob", "Grep",
+      "TodoWrite", "WebFetch", "WebSearch", "Task"
+    ],
+    "deny": [
+      "Bash(rm -rf /)", "Bash(rm -rf /*)",
+      "Bash(rm -rf ~)", "Bash(rm -rf ~/*)",
+      "Bash(mkfs:*)", "Bash(dd:*)", "Bash(format:*)",
+      "Bash(shutdown:*)", "Bash(reboot:*)"
+    ]
+  }
+}
